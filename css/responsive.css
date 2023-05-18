@@ -1,0 +1,78 @@
+/*-----mobile device-----*/
+@media (min-width:280px){
+   
+    .choosebox  h4{
+          font-size: 15px;
+    }
+    .clientHead {
+        font-size: 20px;
+    }
+    .browseHead {
+        font-size: 25px;
+    }
+    .stockHead {
+     font-size: 25px;
+    }	
+    
+}
+@media(max-width:576px){
+    .banner-content h1 {
+        font-size: 22px;
+        
+    }
+    .banner-content button {
+        padding: 12px 13px;
+        font-size: 13px;
+    }
+    .choosebox {
+        margin-bottom: 15px;
+    }
+    .choosebottom h2 {
+        font-size: 16px;
+    }
+    .stockbox{
+        margin-bottom: 15px;
+    }
+    .clientbox{
+        margin-bottom: 15px; 
+    }
+    .footer-menu a {
+        padding: 2px;
+        font-size: 10px;
+    }
+}
+/*-----mobile device landscape and smaller device-----*/
+@media(min-width:576px){
+    
+   
+	  
+}
+/*-----median device-----*/
+@media(min-width:768px){
+    .choosebox {
+        margin-bottom: 15px;
+    }
+    .choosebottom h2 {
+        font-size: 20px;
+    }
+    .stockbox{
+        margin-bottom: 15px;
+    }
+    .clientbox{
+        margin-bottom: 15px; 
+    }
+    .header-menu a {
+        padding: 9px;
+    }
+
+
+}
+/*-----large device-----*/
+@media(min-width:992px){
+	
+
+}
+/*-----extra large and desktop device-----*/
+@media(min-width:1200px){
+
+}
