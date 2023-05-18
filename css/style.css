@@ -197,14 +197,37 @@ html,body{
     font-weight: 400;
     margin-bottom: 0;
 }
-.carDetails button{
+/* .carDetails button{
     color: white;
     background-color:#488dda;
     border: 1px solid transparent;
-    transform: skew(-20deg);
-    padding: 5px 10px;
+    transform: skewY(var(--skew));
+    padding: 5px 17px;
+    border-radius:55px 0px 0px;
     font-size: 12px;
+} */
+.button {
+	background: #488dda;
+	color: white;
+	font-size: 15px;
+	padding: 4px 10px 5px 14px;
+	position: relative;
+    border: none;
 }
+
+
+
+	.button.triangle:after {
+	    content: "";
+		background-color: #488dda;
+		display: block;
+		height: 100%;
+		position: absolute;
+		left: -7px;
+		top: 0;
+		width: 15px;
+        transform: skewX(335deg);
+	}
 
 /* dots */
 .dots{
